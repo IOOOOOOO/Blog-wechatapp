@@ -1,0 +1,23 @@
+<!-- 
+  WordPres版微信小程序
+  author: 林航辉
+  organization: Day1博客 www.day1.ren
+  github: https://github.com/SCHLLLLLL/Blog-wechatapp.git
+  技术支持微信号：s425166362
+  开源协议：MIT
+  Copyright (c) 2020 https://www.day1.ren/ All rights reserved. 
+-->
+<import src="login.wxml" />
+
+<template name="login-popup">
+    <view class="zan-popup zan-popup--center login-popup {{show ? 'zan-popup--show' : ''}}">
+        <!-- 遮罩层 -->
+        <view class="zan-popup__mask" bindtap="closeLoginPopup"></view>
+        <!-- 弹出层内容 -->
+        <view class="zan-popup__container">
+            <view class="login-popup-wrapper">
+				<template is="login" data="{{userInfo: userInfo}}"></template>
+            </view>
+        </view>
+    </view>
+</template>

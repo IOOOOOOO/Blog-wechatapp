@@ -1,0 +1,18 @@
+
+<!-- 
+  WordPres版微信小程序
+  author: 林航辉
+  organization: Day1博客 www.day1.ren
+  github: https://github.com/SCHLLLLLL/Blog-wechatapp.git
+  技术支持微信号：s425166362
+  开源协议：MIT
+  Copyright (c) 2020 https://www.day1.ren/ All rights reserved. 
+-->
+
+<template name="tempFooter"> 
+  <view class="header">    
+    <view>
+       © 2020 Day1 day1.ren  proudly powered by WordPress
+    </view>
+  </view>
+</template>
